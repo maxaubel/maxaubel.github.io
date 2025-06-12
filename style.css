@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffffee;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  backdrop-filter: blur(8px);
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  border-radius: 12px 12px 0 0;
+}
+
+header h1 {
+  margin-bottom: 0.3em;
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.contact {
+  margin-top: 1rem;
+}
+
+.contact a, .contact span {
+  margin: 0 0.5em;
+  text-decoration: none;
+  color: #ffffffcc;
+  font-weight: 500;
+}
+
+.contact a:hover {
+  color: #fff;
+}
+
+section {
+  padding: 1.5rem 0;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #343a40;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #764ba2;
+  margin-top: 6px;
+  border-radius: 2px;
+}
+
+ul {
+  padding-left: 1.5em;
+  line-height: 1.7;
+}
+
+section p, li {
+  font-size: 1.05em;
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: #666;
+  font-size: 0.9em;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
